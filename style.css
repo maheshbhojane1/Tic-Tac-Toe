@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #1D1128;
+    text-align: center;
+}
+
+.title {
+    color: #fff;
+    margin: 10px;
+    font-size: 4vmin;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.contsiner {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7vmin;
+}
+
+#box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(238, 233, 233, 0.3);
+    font-size: 7vmin;
+    color: #000 ;
+    cursor: pointer;
+    background-color: #fff;
+    
+}
+
+
+#reset {
+    width: 20vmin;
+    height: 7vmin;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5vmin;
+    border-radius: 3vmin;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-family: "Lobster", sans-serif;
+}
+
+#new {
+    width: 20vmin;
+    height: 7vmin;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5vmin;
+    border-radius: 3vmin;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-family: "Lobster", sans-serif;
+}
+
+.msg-container {
+    margin-top: 15px;
+    font-size: 3vmin;
+    font-family: "Lobster", sans-serif;
+    color: #fff;
+
+}
+
+.hide {
+    display: none;
+}
+
+
